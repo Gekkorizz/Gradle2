@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
-    intergrate 'com.google.guava:guava:23.0'
+    integrate 'com.google.guava:guava:23.0'
 
     // Use JUnit test framework
     testIntegrate 'junit:junit:4.12'
