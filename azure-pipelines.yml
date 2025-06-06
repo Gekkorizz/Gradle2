@@ -10,11 +10,9 @@ pool:
   name: Default
 
 steps:
-  - script: echo New gradle project
-    displayName: Printing
-    
-  - script: gradle build
-    displayName: Building gradle pe=roject
-
-  - script: gradle run
-    displayName: Running gradle project
+- script: echo meow
+  displayName: 'simple script'
+- script: gradle build
+  displayName: 'build'
+- script: gradle run
+  displayName: 'run'
