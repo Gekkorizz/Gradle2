@@ -28,7 +28,5 @@ dependencies {
 }
 
 application {
-    // Define the main class for the application
-    mainClassName = 'src.main.java.App'
-
+    mainClassName = 'App'
 }
